@@ -55,7 +55,7 @@ async function getData(no){
 
 
 
-function input(){
+function createInput(){
 var div = document.createElement("div");
 div.style.width = "100%";
 div.style.display ="flex";
@@ -113,6 +113,6 @@ div.append(h1,input,span,button);
 document.body.append(div)
 }
 
-input()
+createInput()
 
 console.log(window.innerWidth)
